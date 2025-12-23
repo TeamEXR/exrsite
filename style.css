@@ -1,0 +1,114 @@
+/* Reset and Base Styles */
+body {
+    background-color: #f0f0f0; /* The classic gray background gutter */
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Tahoma", sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Fixed Width Container (The 2005 Standard) */
+#container {
+    width: 960px;
+    margin: 20px auto;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+/* Glossy Header */
+header {
+    background: linear-gradient(to bottom, #4a90e2 0%, #2171cc 100%);
+    color: white;
+    padding: 30px 20px;
+    border-bottom: 3px solid #1a569d;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+    text-shadow: 0px 2px 2px rgba(0,0,0,0.3);
+}
+
+header h1 span {
+    color: #b3d4fc;
+}
+
+/* Shiny Nav Bar */
+nav {
+    background: #e9e9e9;
+    border-bottom: 1px solid #ccc;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li a {
+    display: block;
+    padding: 12px 20px;
+    text-decoration: none;
+    color: #555;
+    font-weight: bold;
+    border-right: 1px solid #ddd;
+}
+
+nav li a:hover, nav li a.active {
+    background: #fff;
+    color: #2171cc;
+}
+
+/* Layout */
+#content-wrapper {
+    display: flex;
+    padding: 20px;
+}
+
+aside {
+    width: 200px;
+    margin-right: 20px;
+}
+
+main {
+    flex: 1;
+}
+
+/* Sidebar Boxes */
+.sidebar-box {
+    background: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+.sidebar-box h3 {
+    margin-top: 0;
+    font-size: 14px;
+    border-bottom: 1px solid #ccc;
+    color: #2171cc;
+}
+
+/* Web 2.0 Button Styles */
+.web2-button {
+    background: linear-gradient(to bottom, #87e0fd 0%, #53cbf1 40%, #05abe0 100%);
+    border: 1px solid #05abe0;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    text-shadow: 0px 1px 1px rgba(0,0,0,0.2);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    font-size: 11px;
+    color: #999;
+    padding: 20px;
+    border-top: 1px dashed #ccc;
+}
